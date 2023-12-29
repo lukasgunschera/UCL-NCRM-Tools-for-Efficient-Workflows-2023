@@ -1,5 +1,5 @@
 #!bin/bash
-docker run -ti exercise_1:latest Rscript docker_exercise1_script.R
+docker run -ti exercise_1:latest Rscript docker_exercise1_script.R --platform="linux/amd64"
 
 # does the same as line 2 manually
 # go into docker container

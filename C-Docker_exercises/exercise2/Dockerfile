@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:4.2.1
+FROM rocker/tidyverse:4.0.1
 
 # setup workdir
 ENV HOME /home/rstudio
